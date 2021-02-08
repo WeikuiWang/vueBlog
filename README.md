@@ -38,7 +38,7 @@ npm install
 npm run dev
 ```
 
-启动成功就可以本地http://localhost:8080访问初始的vue前端项目了。
+启动成功就可以本地http://localhost:8080 访问初始的vue前端项目了。
 
 # 2-整合element ui/搭建登录页/解决跨域问题
 
@@ -56,8 +56,7 @@ npm i element-ui -S
 ``` bash
 npm install axios --save-dev
 ```
-登陆接口前后端代码骨架完成
-前端：
+登陆接口前后端代码骨架完成，前端：
 ``` javascript
 onSubmit(formName) {
       this.$refs[formName].validate((valid) => {
@@ -99,9 +98,9 @@ public class CorsConfig implements WebMvcConfigurer {
 }
 ```
 
-其中allowedOriginPatterns是在spring-boot2.4后的版本使用方式，之前的可使用allowedOrigins("*")
+其中**allowedOriginPatterns**是在spring-boot2.4后的版本使用方式，之前的可使用allowedOrigins("*")
 
-Todolist:
+# Todolist:
 
 - [x] 搭建vue-cli项目，整合element-ui，创建管理后台登录页
 - [x] 搭建spring-boot后端项目，解决跨域问题，登陆接口实现交互
