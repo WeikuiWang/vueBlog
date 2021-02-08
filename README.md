@@ -104,8 +104,11 @@ public class CorsConfig implements WebMvcConfigurer {
 Todolist:
 
 - [x] 搭建vue-cli项目，整合element-ui，创建管理后台登录页
-- [x] 搭建spring-boot后端项目，解决跨域问题，前后端接口实现交互
-- [ ] 博客列表添加页设计与实现
+- [x] 搭建spring-boot后端项目，解决跨域问题，登陆接口实现交互
+- [ ] 管理后台添加页
+- [ ] 管理后台列表页
+- [ ] 文章展示列表页
+- [ ] 文章展示内容页
 - [ ] 分类管理设计与实现
 - [ ] 标签列表管理设计与实现
 - [ ] 数据库设计
